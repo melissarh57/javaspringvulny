@@ -49,6 +49,8 @@ app:
       - field: password
         values:
           - "$faker:password"
+    openApiConf:
+      path: "/openapi.yaml"
 hawk:
   spider:
     maxDurationMinutes: 5
